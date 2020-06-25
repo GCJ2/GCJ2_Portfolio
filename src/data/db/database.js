@@ -101,11 +101,37 @@ const database = {
       subtitle: "Pictures of cats with quotes from Ye.",
       imageUrl: "/images/catsandkanye.jpg",
       technologies: 'React, Axios, and SASS',
+      frontEnd: 'React, Axios, and SASS',
+      backend: null,
       apis: ['https://aws.random.cat/',
         'https://kanye.rest/'],
       gitHubLink: 'https://github.com/GCJ2/catsAndKanye',
       url: 'https://cats-and-kanye.herokuapp.com/'
     },
+    {
+      id: 2,
+      title: "GitHub User Search",
+      subtitle: "Search for GitHub users using the GitHubAPI",
+      imageUrl: "/images/GHUserCard.jpg",
+      technologies: 'React, Axios, and SASS',
+      frontEnd: 'React, Axios, and SASS',
+      backEnd: null,
+      apis: ['https://developer.github.com/v3/'],
+      gitHubLink: 'https://github.com/GCJ2/React-Github-User-Card',
+      url: 'https://gcj2-github-user-search.netlify.app/'
+    },
+    {
+      id: 3,
+      title: "Node Express Boiler Plate",
+      subtitle: "Sample Express server with auth and custom middleware.",
+      imageUrl: "/images/node.jpg",
+      technologies: 'React, Axios, and SASS',
+      frontEnd: null,
+      backEnd: 'Node, Express, JWT, Various Middleware',
+      apis: null,
+      gitHubLink: 'https://github.com/GCJ2/rpg-charView-db',
+      url: null
+    }
 ],
   experience: {
     workingExperience: [
