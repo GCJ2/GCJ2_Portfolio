@@ -111,7 +111,7 @@ const database = {
     {
       id: 2,
       title: "GitHub User Search",
-      subtitle: "Search for GitHub users using the GitHubAPI",
+      subtitle: "Search for GitHub users using the GitHubAPI.",
       imageUrl: "/images/GHUserCard.jpg",
       technologies: 'React, Axios, and SASS',
       frontEnd: 'React, Axios, and SASS',
