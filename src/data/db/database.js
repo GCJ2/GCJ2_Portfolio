@@ -78,7 +78,7 @@ const database = {
       value: 100
     },
     {
-      title: "Javascript",
+      title: "JavaScript",
       value: 100
     },
     {
@@ -86,13 +86,21 @@ const database = {
       value: 100
     },
     {
-      title: "Node",
+      title: "Node.js",
+      value: 100
+    },
+    {
+      title: "Knex.js",
       value: 100
     },
     {
       title: "Python",
       value: 100
-    }
+    },
+    {
+      title: "SQLite/Firebase",
+      value: 100
+    },
   ],
   portfolios: [
     {
@@ -331,7 +339,7 @@ const database = {
     phoneNumbers: ['920.750.9270'],
     emailAddress: ['gcjohnston91@gmail.com'],
     twitter: ['gregisliving'],
-    linkedIn: ['https://www.linkedin.com/in/greg-johnston-a855974a/'],
+    linkedIn: ['https://www.linkedin.com/in/gregorycjohnston/'],
     gitHub: ['https://github.com/gcj2'],
     address: null
   }

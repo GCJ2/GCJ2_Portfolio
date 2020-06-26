@@ -28,7 +28,22 @@ function Resumes(){
     <Layout>
       <div className="mi-skills-area mi-section mi-padding-top">
         <div className="container">
-          <Sectiontitle title="My Skills" />
+          <Sectiontitle title="Resume" />
+          {/*<Sectiontitle title="My Skills" />*/}
+          {/*<div className="mi-skills">*/}
+          {/*  <div className="row mt-30-reverse">*/}
+          {/*    {skills.map(skill => (*/}
+          {/*      <TrackVisibility once className="col-lg-6 mt-30" key={skill.title}>*/}
+          {/*        <Progress title={skill.title} percentage={skill.value} />*/}
+          {/*      </TrackVisibility>*/}
+          {/*    ))}*/}
+          {/*  </div>*/}
+          {/*</div>*/}
+        </div>
+      </div>
+      <div className="mi-resume-area mi-section mi-padding-bottom">
+        <div className="container">
+          <Smalltitle title="Skills" />
           <div className="mi-skills">
             <div className="row mt-30-reverse">
               {skills.map(skill => (
@@ -38,11 +53,8 @@ function Resumes(){
               ))}
             </div>
           </div>
-        </div>
-      </div>
-      <div className="mi-resume-area mi-section mi-padding-top mi-padding-bottom">
-        <div className="container">
-          <Sectiontitle title="Resume" />
+          {/*<Sectiontitle title="Resume" />*/}
+          <br/>
           <Smalltitle title="Working Experience" icon="briefcase" />
           <div className="mi-resume-wrapper">
             {workingExperience.map(workingExp => (
