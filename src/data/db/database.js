@@ -86,6 +86,10 @@ const database = {
       value: 100
     },
     {
+      title: 'Redux',
+      value: 100
+    },
+    {
       title: "Node.js",
       value: 100
     },
@@ -122,10 +126,10 @@ const database = {
       subtitle: "Search for GitHub users using the GitHubAPI.",
       imageUrl: "/images/GHUserCard.jpg",
       technologies: 'React, Axios, and SASS',
-      frontEnd: 'React, Axios, and SASS',
+      frontEnd: 'React, Axios, Redux, and SASS',
       backEnd: null,
       apis: ['https://developer.github.com/v3/'],
-      gitHubLink: 'https://github.com/GCJ2/React-Github-User-Card',
+      gitHubLink: 'https://github.com/GCJ2/GitHub-User-Search/tree/Redux-Refactor',
       url: 'https://gcj2-github-user-search.netlify.app/'
     },
     {
